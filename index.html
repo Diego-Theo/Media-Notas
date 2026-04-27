@@ -121,26 +121,26 @@
 
                 <section class="my-3 col-md-6">
                     <label for="nota1" class="form-label">Nota 1</label>
-                    <input type="text" id="nota1" name="nota1" class="form-control" required minlength="1" maxlength="4"
-                        placeholder="EX: 10.0">
+                    <input type="text" id="nota1" name="nota1" class="form-control nota" required minlength="1" maxlength="4"
+                        placeholder="EX: 10.0" min="0" max="10">
                 </section>
 
                 <section class="my-3 col-md-6">
                     <label for="nota2" class="form-label">Nota 2</label>
-                    <input type="text" id="nota2" name="nota2" class="form-control" required minlength="1" maxlength="4"
-                        placeholder="EX: 10.0">
+                    <input type="text" id="nota2" name="nota2" class="form-control nota" required minlength="1" maxlength="4"
+                        placeholder="EX: 10.0" min="0" max="10">
                 </section>
 
                 <section class="my-3 col-md-6">
                     <label for="nota3" class="form-label">Nota 3</label>
-                    <input type="text" id="nota3" name="nota3" class="form-control" required minlength="1" maxlength="4"
-                        placeholder="EX: 10.0">
+                    <input type="text" id="nota3" name="nota3" class="form-control nota" required minlength="1" maxlength="4"
+                        placeholder="EX: 10.0" min="0" max="10">
                 </section>
 
                 <section class="my-3 col-md-6">
                     <label for="nota4" class="form-label">Nota 4</label>
-                    <input type="text" id="nota4" name="nota4" class="form-control" required minlength="1" maxlength="4"
-                        placeholder="EX: 10.0">
+                    <input type="text" id="nota4" name="nota4" class="form-control nota" required minlength="1" maxlength="4"
+                        placeholder="EX: 10.0" min="0" max="10">
                 </section>
 
                 <section class="my-5 d-flex justify-content-end">
@@ -171,7 +171,7 @@
 
                 <tfoot> <!--rodapé-->
                     <tr>
-                        <td colspan="8">Dados atualizados em: </td>
+                        <td colspan="8">Dados atualizados em: <span id="data"></span></td>
                     </tr>
                 </tfoot>
 
@@ -321,6 +321,20 @@
 
        
 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
 
 
@@ -328,7 +342,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
-        <script src="./js/gravarUsuario.js"></script>
+    <script src="./js/gravarUsuario.js"></script>
 </body>
 
 </html>
